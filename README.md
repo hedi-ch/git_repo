@@ -24,8 +24,8 @@ you can git your token by going to your github acount and choose :
 ########################################
 ###########git intial and ssh###########
 ########################################
-for who did not finish setting up git or did not know how 
-also for people who do not know what is ssh 
-is this article from <the odin project> that will help you to SETTING UP GIT and ssh
+for who did not finish setting up git or did not know how, 
+also for people who do not know what is ssh. 
+this is article from (the odin project) that will help you to SETTING UP GIT and ssh
 https://www.theodinproject.com/lessons/foundations-setting-up-git
 pls know that the odin project is one of the best place to learn web devlopment me personally use it 

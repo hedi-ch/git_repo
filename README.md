@@ -9,8 +9,9 @@ you should also have been initial your git directory if not pls go to git intial
 #### 3)
 you should run the script on the git directory
 ## pasword and user name 
+the the sript will need only 2 password 1 is the token 2 the ssh pasword
 you should get token from git hub if you did not get pls go to token section
-you should have ssh password if your creat shh with password if not pls go to  git intial and ssh section
+you should have ssh password if you creat shh with password if not pls go to  git intial and ssh section
 and finaly the user name to your git hub acount
 ## token
 you can git your token by going to your github acount and choose :

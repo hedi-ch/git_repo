@@ -30,7 +30,7 @@ fi
 done
 #visibility section
 while [ "$visibility" != false ] && [ "$visibility" != true ]; do
-read -p "do you wont your repo to be visibility or no ?<<yes/no>>: " readme
+read -p "do you wont your repo to be visibility or no ?<<yes/no>>: " visibility
 if [ "$visibility" = "yes" ]; then
 visibility=true
 elif [ "$visibility" = "no" ]; then

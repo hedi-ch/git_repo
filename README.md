@@ -5,12 +5,12 @@ this  bash script for create repository from  terminal
 pls note that you should run this script in terminal after add execute with the command  :
 chmod u+x newgit.sh
 #### 2)
-you should also have been initial your git directory if not pls go to line <git intial and ssh> 
+you should also have been initial your git directory if not pls go to git intial and ssh section
 #### 3)
 you should run the script on the git directory
 ## pasword and user name 
-you should get token from git hub if you did not get pls go to line <token>
-you should have ssh password if your creat shh with password if not pls go to line <git intial and ssh>
+you should get token from git hub if you did not get pls go to token section
+you should have ssh password if your creat shh with password if not pls go to  git intial and ssh section
 and finaly the user name to your git hub acount
 ## token
 you can git your token by going to your github acount and choose :
@@ -23,6 +23,6 @@ you can git your token by going to your github acount and choose :
 ## git intial and ssh
 for who did not finish setting up git or did not know how 
 also for people who do not know what is ssh 
-is this article from <the odin project> that will help you to SETTING UP GIT and ssh
+is this article from the odin project that will help you to SETTING UP GIT and ssh
 ### https://www.theodinproject.com/lessons/foundations-setting-up-git
 pls know that the odin project is one of the best place to learn web devlopment me personally use it 

@@ -18,7 +18,7 @@ private=true
 fi
 done
 #description section
-read -p "Enter description for repo <you can skip by click enter buton>: " description
+#read -p "Enter description for repo <you can skip by click enter buton>: " description
 #initial commit with empty README.md
 while [ "$readme" != false ] && [ "$readme" != true ]; do
 read -p "you wont to initial commit with empty README.md ?<<yes/no>>: " readme
@@ -37,13 +37,16 @@ elif [ "$visibility" = "no" ]; then
 visibility=false
 fi
 done
+json='{"name":"'$repo_name'","private":'$private',"auto_init":'$readme',"visibility":'$visibility'}'
 #Create a new public GitHub repository
-curl -u "$user_name" https://api.github.com/user/repos -d '{"name":"$repo_name","private":"$private","description":"$description","auto_init":"$readme","visibility":"$visibility"}'
+curl -u "$user_name" https://api.github.com/user/repos -d $json
 #Push new repository to Github
 #Using the URL we snagged above, add the remote repository as the origin
-git remote add origin 'git@github.com:"$user_name"/"$repo_name".git'
+#git remote add origin "git@github.com:"$user_name"/"$repo_name".git"
 #Then rename the master branch to main
-git branch -m master main
+#git branch -m master main
 #Finally, push the main branch to remote
-git push -u origin main
+#git push -u origin main
 #############Check out your newly populated repo in GitHub, and happy coding!################
+###git the repo on your machine
+git clone "git@github.com:"$user_name"/"$repo_name".git"

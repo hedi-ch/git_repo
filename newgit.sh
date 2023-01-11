@@ -39,6 +39,7 @@ fi
 done
 json='{"name":"'$repo_name'","private":'$private',"auto_init":'$readme',"visibility":'$visibility'}'
 #Create a new public GitHub repository
+echo 'pls put your token insted of github password'
 curl -u "$user_name" https://api.github.com/user/repos -d $json
 #Push new repository to Github
 #Using the URL we snagged above, add the remote repository as the origin
